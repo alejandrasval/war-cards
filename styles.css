@@ -57,3 +57,20 @@ h2#message {
 h3#remaining-cards {
   margin-top: 20px;
 }
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+div#class,
+div#computer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3#computer-score,
+h3#user-score {
+  margin-top: 10px;
+}
